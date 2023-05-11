@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #FCE6E9;
+    font-family: "Concert One", sans-serif;
+    width: 1440px;
+    
+}
+
+/* DIV BOX Color Start */
+#BoxCategory_1 {
+    background-color: #00f583;
+}
+
+#BoxCategory_2 {
+    background-color: #4100f5;
+}
+
+#BoxCategory_3 {
+    background-color: #f5008b;
+}
+
+#BoxCategory_4 {
+    background-color: #e9f500;
+}
+
+/* DIV BOX Color End */
+
+/* COLOR Start */
+
+#B200 {
+    color: #4D494F;
+}
+
+#P200 {
+    color: #504DED;
+}
+
+#P100 {
+    color: #9F9DF2;
+}
+
+#P50 {
+    color: #F2C8CF;
+}
+
+#W200 {
+    color: #FFFFFF;
+}
+
+#G200 {
+    color: #2E89A5;
+}
+
+
+/* COLOR Start */
+
+/*Sticky Navigation Start */
+#navbar {
+    background-color: #F2C8CF;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 16px 50px;
+    font-family: "Concert One";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #4D494F;
+    mix-blend-mode: normal;
+}
+
+.button2 {
+    background-color: #2E89A5;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 50px;
+    font-family: "Concert One";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    width: 209px;
+    height: 60px;
+}
+
+.button:hover {
+    background-color: #9F9DF2;
+    width: 209px;
+    height: 60px;
+    border-radius: 30px;
+}
+/*Sticky Navigation End */
+
+/*Toggle Start*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px 0;
+}
+
+.dropdown-content a {
+    padding: 2px 0;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Toggle End*/
+
+/* Font Start */
+.p1{
+    color: #4D494F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.p2{
+    color: #4D494F;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.p3{
+    background-color: #FFFFFF;
+    width: 300px;
+    height:30px;
+    font-family: "Concert One";
+    border-radius: 30px;
+    color: #4D494F;
+    border: none;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 16px;
+    margin-top: 25px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.p4{
+     color: #504DED;
+     font-weight: 500;
+     font-size: 45px;
+     letter-spacing: 2px;
+     margin-top: 50px;
+}
+
+.p5{
+    color:#4D494F;
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-left: 18px;
+}
+/* Font End */
+
+/* Icon Start */
+.icon{
+    color:#9F9DF2 ;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.icon:hover{
+    color: #F2C8CF;
+}
+/* Icon End */
